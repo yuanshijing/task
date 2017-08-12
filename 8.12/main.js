@@ -4,7 +4,7 @@ function flowernum() {
         let dic = i.toString().split('');
         let sum = 0;
         for(let num of dic){
-            sum += Math.pow(parseInt(num), 3);
+            sum += Math.pow(num, 3);
         }
         if (i == sum) {
             result.push(i);
