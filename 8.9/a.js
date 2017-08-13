@@ -6,5 +6,5 @@ function build_array(n){
     console.log(array);
     console.log(array[n-1]);
 }
-
+//测试
 build_array(15);
