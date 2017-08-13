@@ -1,11 +1,9 @@
 function prime(n) {
     let i = 2;
-    let a = 1;
     let result=`${n}=`;
-    while (a) {
+    while (i) {
         if (n == i) {
             result += i;
-            a = 0;
         } 
         else if (n % i == 0) {
             result += i;
