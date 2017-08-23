@@ -20,7 +20,6 @@ function maxTimes(str) {
         if (cnt[i] == max)
             result[i] = max;
     });
-    console.log(max);
     return result;
 }
 console.log(maxTimes('aaaaabbdbdbb'));
