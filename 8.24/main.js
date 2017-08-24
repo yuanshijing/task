@@ -1,8 +1,7 @@
 function left_pad(str,length,item){
-    let result = str;
-    while(result.length<length){
-        result += item;
-    }return result;
+    while(str.length<length){
+        str = item + str;
+    }return str;
 }
 console.log(left_pad('hello',20,'1'))
 
