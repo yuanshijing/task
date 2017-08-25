@@ -1,7 +1,6 @@
 function findPut(arr,elem){
 	let result = arr.filter((i) => i!== elem);
-	let add = arr.filter((i) => i === elem);
-	add.map((i) =>result.push(i));
+	arr.filter((i) => i === elem).forEach((item) =>result.push(item));
 	return result;
 }
 
